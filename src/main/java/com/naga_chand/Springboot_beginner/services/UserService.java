@@ -61,4 +61,10 @@ public class UserService {
         }
         return u;
     }
+
+    public User randomUser(){
+        int sz = allUsers.size();
+        int idx = (int)Math.random()*sz;
+        return allUsers.get(idx);
+    }
 }

@@ -63,6 +63,11 @@ public class UserController {
         return ResponseEntity.notFound().build();
     }
 
+    @GetMapping("/randomUser")
+    public User randomUser(){
+        return userService.randomUser();
+    }
+
 
 
     
