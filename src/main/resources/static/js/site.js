@@ -1,1 +1,2 @@
-alert("Welcome")
+// alert("Welcome")
+console.log("Hello World!")
